@@ -1,0 +1,41 @@
+{
+   "ActiveEmotionalView":"No Loops",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-490,-182",
+   "DisplayTieOff":"1",
+   "ExpandedHierarchyInLayout":"",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port AXIS0_RX -pg 1 -lvl 0 -x -30 -y 420 -defaultsOSRD
+preplace port AXIS1_RX -pg 1 -lvl 0 -x -30 -y 360 -defaultsOSRD
+preplace port AXIS2_RX -pg 1 -lvl 0 -x -30 -y 320 -defaultsOSRD
+preplace port AXIS3_RX -pg 1 -lvl 0 -x -30 -y 340 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -30 -y 380 -defaultsOSRD
+preplace port port-id_resetn -pg 1 -lvl 0 -x -30 -y 400 -defaultsOSRD
+preplace inst one -pg 1 -lvl 1 -x 210 -y 280 -defaultsOSRD -pinBusDir dout right -pinBusY dout 0R
+preplace inst system_ila_0 -pg 1 -lvl 1 -x 210 -y 440 -swap {30 1 2 3 4 5 6 7 8 9 20 11 12 13 14 15 16 17 18 19 0 21 22 23 24 25 26 27 28 29 10 31 32 33 34 35 36 37 38 39 40 41} -defaultsOSRD -pinDir SLOT_0_AXIS left -pinY SLOT_0_AXIS 60L -pinDir SLOT_1_AXIS left -pinY SLOT_1_AXIS 40L -pinDir SLOT_2_AXIS left -pinY SLOT_2_AXIS 0L -pinDir SLOT_3_AXIS left -pinY SLOT_3_AXIS 20L -pinDir clk left -pinY clk 80L -pinDir resetn left -pinY resetn 100L
+preplace inst data_consumer_0 -pg 1 -lvl 2 -x 480 -y 60 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_1 -pg 1 -lvl 2 -x 480 -y 200 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_2 -pg 1 -lvl 2 -x 480 -y 340 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_3 -pg 1 -lvl 2 -x 480 -y 480 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace netloc clk_1 1 0 2 50J 220 350
+preplace netloc resetn_1 1 1 1 370 100n
+preplace netloc resetn_2 1 0 1 -10 400n
+preplace netloc AXIS0_RX_1 1 0 2 90J 380 310
+preplace netloc AXIS1_RX_1 1 0 2 10J 200 NJ
+preplace netloc AXIS2_RX_1 1 0 2 70J 340 N
+preplace netloc AXIS3_RX_1 1 0 2 30J 360 330
+levelinfo -pg 1 -30 210 480 590
+pagesize -pg 1 -db -bbox -sgen -150 0 590 620
+",
+   "No Loops_ScaleFactor":"1.0",
+   "No Loops_TopLeft":"-375,-64",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst data_consumer_0 -pg 1 -lvl 1 -x 110 -y 70 -defaultsOSRD
+levelinfo -pg 1 0 110 220
+pagesize -pg 1 -db -bbox -sgen 0 0 220 140
+"
+}
+0

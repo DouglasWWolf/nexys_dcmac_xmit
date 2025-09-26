@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"No Loops",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-490,-182",
+   "DisplayTieOff":"1",
+   "ExpandedHierarchyInLayout":"",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port AXIS0_RX -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port AXIS1_RX -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port AXIS2_RX -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port AXIS3_RX -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace inst data_consumer_0 -pg 1 -lvl 1 -x 130 -y 60 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_1 -pg 1 -lvl 1 -x 130 -y 200 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_2 -pg 1 -lvl 1 -x 130 -y 480 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace inst data_consumer_3 -pg 1 -lvl 1 -x 130 -y 340 -defaultsOSRD -pinDir AXIS_RX left -pinY AXIS_RX 0L -pinDir clk left -pinY clk 20L -pinDir resetn left -pinY resetn 40L
+preplace netloc clk_1 1 0 1 20 80n
+preplace netloc AXIS0_RX_1 1 0 1 N 60
+preplace netloc AXIS1_RX_1 1 0 1 N 200
+preplace netloc AXIS2_RX_1 1 0 1 N 340
+preplace netloc AXIS3_RX_1 1 0 1 N 480
+levelinfo -pg 1 0 130 240
+pagesize -pg 1 -db -bbox -sgen -120 0 240 580
+",
+   "No Loops_ScaleFactor":"0.865517",
+   "No Loops_TopLeft":"-552,0",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst data_consumer_0 -pg 1 -lvl 1 -x 110 -y 70 -defaultsOSRD
+levelinfo -pg 1 0 110 220
+pagesize -pg 1 -db -bbox -sgen 0 0 220 140
+"
+}
+
